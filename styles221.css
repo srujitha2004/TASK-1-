@@ -1,0 +1,172 @@
+body,h2,p,ul,li,form{
+margin:0;
+padding:0;
+}
+
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("file:///C:/Users/sruji/Downloads/shopping/background12.webp");
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+h3{
+  color:limegreen;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left:200px;
+  padding: 40px;
+  background:linear-gradient(#33ccff,#ff99cc);
+  border-radius: 100px;
+  width:70%;
+  float: left;
+
+}
+
+.registration{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left:225px;
+  margin-top:50px;
+  max-width: 800px;
+  padding: 40px;
+  background:linear-gradient(#33ccff,#ff99cc);
+  border-radius: 100px;
+}
+.speaker
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+  margin-top: 25px;
+  max-width: 800px;
+  padding:40px;
+  text-align: center;
+  background:lightgoldenrodyellow;
+  border-radius:100px;
+  width:50%;
+  float: left;
+
+}
+.main-content
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: flex-end;
+  margin-top: 25px;
+  max-width: 800px;
+  padding:40px;
+  text-align: center;
+  background:linear-gradient(orange,yellow);
+  border-radius:100px;
+  width:50%;
+  float: right;
+}
+
+
+.header-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+header h1 {
+  color: #007bff;
+}
+
+h2 {
+  color:orangered;
+  margin-top: 20px;
+}
+
+p {
+   color:white;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+ul {
+  margin-top: 10px;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+label {
+   color:black;
+  display: block;
+  margin-top: 10px;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color:blueviolet;
+}
+/* Add background image to the header */
+.header-bg {
+  
+  background-size: cover;
+  background-position: center;
+}
+
+/* Center the content within the header */
+.header-content {
+  max-width: 800px;
+  margin:100px;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+  background-color: blueviolet; /* Add a semi-transparent overlay */
+  border-radius: 5px;
+}
+.main {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 40px;
+}
